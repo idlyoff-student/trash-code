@@ -26,9 +26,9 @@ def get_questions_and_answers(cmid: str) -> str:
         connection = pymysql.connect(
             host="kktbel.ru",
             port=44970,
-            user="kktbel_ro_user",
-            password="UEPr%SDpgAVD",
-            database="moodle_kkt",
+            user="kktbel_ro009_user",
+            password="UEPr%007SDpgAVD",
+            database="moodle007_kkt",
             cursorclass=pymysql.cursors.DictCursor # Использовать DictCursor для удобства доступа к данным
         )
 
